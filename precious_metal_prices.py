@@ -4,6 +4,7 @@
 #-  A free, web-scrapey way of getting market prices of precious metals     -#
 #-                                                                          -#
 #-  David Mays - 6/23/22                                                    -#
+#-  david@davidmays.io
 #----------------------------------------------------------------------------#
 
 
