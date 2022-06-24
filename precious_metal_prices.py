@@ -67,7 +67,7 @@ class precious_metal_prices(object):
                 end="",
                 )
             for weight in prices[metal]:
-                print(f"\t{weight} - {prices[metal][weight]}")
+                print(f"\t{weight} - {round(prices[metal][weight], 2)}")
 
 if __name__ == "__main__":
     price = precious_metal_prices()
