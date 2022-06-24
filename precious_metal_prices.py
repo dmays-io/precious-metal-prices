@@ -1,11 +1,11 @@
-#----------------------------------------------------------------------------#
-#-  precious_metal_prices.py                                                -#
-#-                                                                          -#
-#-  A free, web-scrapey way of getting market prices of precious metals     -#
-#-                                                                          -#
-#-  David Mays - 6/23/22                                                    -#
-#-  david@davidmays.io
-#----------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+#-  precious_metal_prices.py                                                        -#
+#-                                                                                  -#
+#-  A free, web-scrapey way of getting market prices of precious metals (in USD)    -#
+#-                                                                                  -#
+#-  David Mays - 6/23/22                                                            -#
+#-  david@davidmays.io                                                              -#
+#------------------------------------------------------------------------------------#
 
 
 from bs4 import BeautifulSoup
@@ -71,4 +71,4 @@ class precious_metal_prices(object):
 
 if __name__ == "__main__":
     price = precious_metal_prices()
-    print(price.print_all_prices())
+    price.print_all_prices()
